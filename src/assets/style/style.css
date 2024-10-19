@@ -1,0 +1,84 @@
+.container-fluid {
+  height: 100vh;
+  background-image: url("");
+}
+.container-fluid .search-results-container {
+  background-color: rgba(84, 112, 108, 0.5);
+  height: 50vh;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+}
+.container-fluid .search-results-container::-webkit-scrollbar {
+  width: 8px;
+}
+.container-fluid .search-results-container::-webkit-scrollbar-thumb {
+  background-color: rgba(175, 180, 199, 0.4);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+.container-fluid .search-results-container::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(175, 180, 199, 0.6); /* Darker color on hover */
+}
+.container-fluid .search-results-container::-webkit-scrollbar-track {
+  background-color: rgba(84, 112, 108, 0.2); /* Track background color */
+  border-radius: 10px;
+}
+.container-fluid .search-results-container ul {
+  padding: 0;
+  list-style-type: none;
+}
+.container-fluid .search-results-container .spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container-fluid .btn,
+.container-fluid input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 0;
+}
+.container-fluid .btn {
+  padding: 10px 20px !important;
+  background-color: rgba(15, 74, 60, 0.3);
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.container-fluid .btn:focus {
+  background-color: rgba(15, 74, 60, 0.3);
+}
+.container-fluid .btn .icon {
+  color: #0A4437;
+  font-size: 20px;
+}
+.container-fluid input {
+  color: white !important;
+  background-color: rgba(84, 112, 108, 0.5) !important;
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-radius: 0;
+}
+.container-fluid input:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.container-fluid input::-moz-placeholder {
+  color: white;
+}
+.container-fluid input::placeholder {
+  color: white;
+}
+.container-fluid li {
+  color: white;
+  padding: 10px;
+  border-bottom: 2px solid rgba(175, 180, 199, 0.2);
+}
+.container-fluid li:hover {
+  background-color: rgba(175, 180, 199, 0.2);
+}/*# sourceMappingURL=style.css.map */
